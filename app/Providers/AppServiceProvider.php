@@ -34,7 +34,7 @@ class AppServiceProvider extends ServiceProvider
         config(['adminlte.sidebar_collapse' => Parametros::Sidebar()]);
         config(['adminlte.title_postfix' => '| '.Parametros::Nombre_empresa()]);
         config(['adminlte.layout_dark_mode' => Parametros::ModoOscuro()]);
-        config(['adminlte.layout_topnav' => Parametros::BarraTop()]);
+
         config(['adminlte.logo' => Parametros::Nombre_Header(10)]);
         config(['auth.passwords.users.expire' => Parametros::TiempoTokenCorreo()]);
         config(['auth.passwords.users.throttle' => Parametros::TiempoTokenCorreo()]);
